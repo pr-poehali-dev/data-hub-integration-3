@@ -6,7 +6,7 @@ export function AboutTrainer() {
           {/* Image */}
           <div className="relative h-96 md:h-full min-h-96">
             <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-accent/5 rounded-2xl"></div>
-            <img src="/professional-trainer-headshot-smiling.jpg" alt="Преподаватель" className="w-full h-full object-cover rounded-2xl" />
+            <img src="https://cdn.poehali.dev/projects/ee5ab792-a08f-4490-819f-a7f7260aa512/bucket/d43c7302-39bb-4c0f-a13f-a00373f1292b.jpg" alt="Мухлиса — преподаватель английского" className="w-full h-full object-cover rounded-2xl" />
           </div>
 
           {/* Content */}
@@ -14,7 +14,7 @@ export function AboutTrainer() {
             <div>
               <p className="text-accent font-semibold text-sm uppercase tracking-wide">О преподавателе</p>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-2 text-balance">
-                Ваш учитель английского для детей
+                Мухлиса — ваш учитель английского для детей
               </h2>
             </div>
 
