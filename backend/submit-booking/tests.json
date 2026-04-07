@@ -1,0 +1,27 @@
+{
+  "tests": [
+    {
+      "name": "Submit booking successfully",
+      "method": "POST",
+      "path": "/",
+      "body": {
+        "parent_name": "Мария Иванова",
+        "phone": "+79001234567",
+        "child_name": "Саша",
+        "child_age": 7
+      },
+      "expectedStatus": 200,
+      "expectedBody": { "success": true },
+      "bodyMatcher": "partial"
+    },
+    {
+      "name": "Missing fields returns 400",
+      "method": "POST",
+      "path": "/",
+      "body": { "parent_name": "Тест" },
+      "expectedStatus": 400,
+      "bodyMatcher": "partial",
+      "expectedBody": { "error": "Заполните все обязательные поля" }
+    }
+  ]
+}

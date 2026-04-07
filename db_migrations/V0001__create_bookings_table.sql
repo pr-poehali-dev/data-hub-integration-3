@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS bookings (
+  id SERIAL PRIMARY KEY,
+  parent_name VARCHAR(255) NOT NULL,
+  phone VARCHAR(50) NOT NULL,
+  child_name VARCHAR(255) NOT NULL,
+  child_age INTEGER NOT NULL,
+  created_at TIMESTAMP DEFAULT NOW()
+);
