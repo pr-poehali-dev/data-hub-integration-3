@@ -1,25 +1,25 @@
 export function Testimonials() {
   const testimonials = [
     {
-      name: "Анна Ковальская",
-      role: "Исполнительный ассистент в TechFlow Solutions",
+      name: "Мария Соколова",
+      role: "Мама ученика, 2 класс",
       image: "/professional-woman-headshot.png",
       quote:
-        "Структурированный подход к изучению инструментов управления проектами - именно то, что мне было нужно. Через два месяца я получила удаленную работу в tech-стартапе.",
+        "Сын раньше отказывался учить английский в школе. После трёх месяцев занятий сам просит включить английские мультики. Это настоящее чудо!",
     },
     {
-      name: "Максим Волков",
-      role: "VA в Stellar Analytics",
+      name: "Андрей Петров",
+      role: "Папа ученицы, 1 класс",
       image: "/professional-man-headshot.png",
       quote:
-        "Коучинг помог мне обрести уверенность в общении с клиентами. Сейчас я веду аккаунты сразу трех компаний одновременно.",
+        "Дочка в восторге от занятий. Уже через месяц начала называть предметы по-английски дома. Преподаватель умеет найти подход к детям.",
     },
     {
-      name: "Елена Родригес",
-      role: "Фриланс VA, Alpine Ventures",
+      name: "Елена Морозова",
+      role: "Мама ученика, 3 класс",
       image: "/professional-woman-smiling.png",
       quote:
-        "Практические упражнения и реальные кейсы подготовили меня ко всему. Удержание клиентов значительно выросло после прохождения программы.",
+        "Занимаемся уже полгода. Сын перестал бояться английского в школе — теперь отвечает у доски без страха. Очень благодарна за такой подход!",
     },
   ]
 
@@ -27,8 +27,8 @@ export function Testimonials() {
     <section id="testimonials" className="bg-background py-20 md:py-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <p className="text-accent font-semibold text-sm uppercase tracking-wide">Истории успеха</p>
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-2 text-balance">Отзывы наших учеников</h2>
+          <p className="text-accent font-semibold text-sm uppercase tracking-wide">Отзывы родителей</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-2 text-balance">Что говорят наши семьи</h2>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
